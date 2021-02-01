@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btn { 
+  margin-left: 10px;
+}
+
+
+.dashboard {
+  width: auto;
+  height: auto;
+}
+
+.task-container {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.form {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+}
+
+.update-form {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+}
+
+.show-card {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+}
+
+.card {
+  margin: 25px;
+}
+
+.new-task-card {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+}
+
+#task-card-title {
+  text-decoration: line-through;
+}
+
+textarea {
+  resize: none;
+}
